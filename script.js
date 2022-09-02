@@ -37,7 +37,7 @@ function timeCardObject(){
 
 function calcPop(){
   for (let i=0; i < hourPop.length; i++){
-    genPop += hourPop[i] * ((i+1)/hourPop.length);
+    genPop += hourPop[i].inGym * ((i+1)/hourPop.length);
   }
   console.log(genPop);
   genPop = 0;
