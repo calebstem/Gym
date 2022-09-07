@@ -12,6 +12,7 @@ body {
 
 #dispBox {
   display: flex;
+  flex-direction: column;
   background-color: white;
   width: 300px;
   padding: 50px;
